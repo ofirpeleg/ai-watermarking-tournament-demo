@@ -1,0 +1,7 @@
+# detect.py's environment. Deliberately does NOT include torch: a .txt file
+# is re-tokenized with the tokenizer alone, and a .json run file already has
+# token ids, so nothing beyond scipy is needed for the statistics.
+
+transformers>=4.40
+scipy>=1.11
+numpy>=1.24
